@@ -8,7 +8,10 @@ start_hour = 8 # school start at 8.am
 next_hour = 9 # 1rst next hour is 9.am
 school_days = [
 	'monday',
-	'tuesday'
+	'tuesday',
+	'wednsday',
+	'thursday',
+	'friday'
 ]
 time_slot_list = [] # get list of time slot
 subject_per_slot = {}
