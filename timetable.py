@@ -8,7 +8,10 @@ start_hour = 8 # school start at 8.am
 next_hour = 9 # 1rst next hour is 9.am
 school_days = [
 	'monday',
-	'tuesday'
+	'tuesday',
+	'wednesday',
+	'thursday',
+	'friday'
 ]
 time_slot_list = [] # get list of time slot
 subject_per_slot = {}
@@ -81,7 +84,7 @@ def fill_in_timetable():
 		print(f'{day.capitalize()} timetable')
 		print('---------------------------\n')
 
-		while time < 4: # Suppose we've 4hours course/day (you can change it)
+		while time < 7: # Suppose we've 4hours course/day (you can change it)
 
 			hour_format = f'{start_hour}h-{next_hour}h' # format time slot
 			# it's represent 8 hours/per day for school
